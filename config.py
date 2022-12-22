@@ -114,7 +114,7 @@ layouts = [
     # layout.Bsp(),
     # layout.Matrix(),
     layout.MonadTall(
-        margin=10,
+        margin=15,
         border_width=1,
         border_focus=["#72E6CC"]
         ),
@@ -123,7 +123,8 @@ layouts = [
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
-    # layout.Columns(border_focus_stack=["#72E6CC", "#8f3d3d"], border_width=1),
+    # layout.Columns(border_focus_stack=
+    #       ["#72E6CC", "#8f3d3d"], border_width=1),
     layout.Max(),
 ]
 
